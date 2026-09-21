@@ -1,0 +1,29 @@
+main {
+  max-width: 480px;
+  margin: 40px auto;
+  font-family: -apple-system, sans-serif;
+  padding: 0 16px;
+}
+.add-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.add-row input {
+  flex: 1;
+  padding: 8px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+li button {
+  margin-left: auto;
+}
